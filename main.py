@@ -2,7 +2,7 @@
 
 import telebot  # pyTelegramBotAPI	4.3.1
 
-bot = telebot.TeleBot('5150353309:AAHW1DPdYWBmnLyYFHFmmFJpZPstV1wuwGo')  # Создаем экземпляр бота @Salakhov_Shamil_1MD25_bot
+bot = telebot.TeleBot('5150353309:AAHW1DPdYWBmnLyYFHFmmFJpZPstV1wuwGo')  # Создаем экземпляр @Salakhov_Shamil_1MD25_bot
 # -----------------------------------------------------------------------
 # Функция, обрабатывающая команду /start
 @bot.message_handler(commands=["start"])
